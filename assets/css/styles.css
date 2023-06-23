@@ -13,6 +13,7 @@ body{
 .banner{
    padding-top: 30px;
    height: 500px;
+   width: 100vw;
    background-size: cover;
    background-repeat: no-repeat;
    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
@@ -69,6 +70,7 @@ body{
 #course-content{
    padding-top: 80px;
    height: 500px;
+   width: 100vw;
    background-size: cover;
    background-repeat: no-repeat;
    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
@@ -101,7 +103,7 @@ body{
 }
 
 #course-content .modules-list{
-   
+   width: 100vw;
 }
 #course-content .modules-list .module{
    color: rgba(255, 255, 255,0.8);
@@ -123,6 +125,7 @@ body{
 
 #transform-world{
    height: 500px;
+   width: 100vw;
    background-image: url(../images/woman-code.png);
    background-size: cover;
    background-attachment: fixed;
@@ -162,6 +165,7 @@ body{
 #professional-challenges img{
    margin: 10px auto;
    display: block;
+   
 }
 #professional-challenges p{
    font-family: Raleway;
@@ -174,6 +178,7 @@ body{
 
 }
 footer{
+   width: 100vw;
    padding: 40px 0;
    text-align: center;
    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
